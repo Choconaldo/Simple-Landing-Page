@@ -288,6 +288,7 @@ h1 {
 	display: block;
 	border-radius: 5px;
 	margin-bottom: 30px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .our-tructure figcaption {
@@ -320,4 +321,57 @@ h1 {
 	.our-tructure img {
 		margin-bottom: 0;
 	}
+}
+
+/* || NEWSLETTER SECTION */
+
+.newsletter h2 {
+	padding-bottom: 30px;
+	font-size: var(--fs-3);
+	text-align: center;
+}
+
+.newsletter input {
+	display: block;
+	margin: 0 auto;
+	font-size: var(--fs-1);
+	font-family: inherit;
+}
+
+#email {
+	border: solid 2px black;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	padding: 5px;
+}
+
+#submit {
+	border: none;
+	background-color: var(--color-3);
+	padding: 15px 30px;
+	color: white;
+	font-weight: var(--fw-2);
+	border-radius: 5px;
+}
+
+/* || FOOTER */
+footer {
+	background-color: var(--color-1);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding: 30px 0;
+	text-align: right;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+	font-weight: var(--fw-2);
+	font-size: var(--fs-1);
+	line-height: 1.5;
+	margin-inline-start: 10px;
+}
+
+footer p {
+	font-size: var(--fs-1);
+	line-height: 1.5;
 }
